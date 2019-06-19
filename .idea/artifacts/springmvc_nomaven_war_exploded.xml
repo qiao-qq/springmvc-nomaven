@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="springmvc-nomaven:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/springmvc_nomaven_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="springmvc-nomaven/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="springmvc-nomaven" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="fastjson-1.2.47" />
+          <element id="library" level="project" name="Spring MVC-4.3.18.RELEASE" />
+          <element id="library" level="project" name="Spring-4.3.18.RELEASE" />
+          <element id="library" level="project" name="jackson-core-2.9.6" />
+          <element id="library" level="project" name="jackson-annotations-2.9.0" />
+          <element id="library" level="project" name="commons-pool2-2.3" />
+          <element id="library" level="project" name="lombok-1.16.20" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
